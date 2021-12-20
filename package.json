@@ -1,0 +1,11 @@
+{
+  "name": "responsive-layouts",
+  "version": "1.0.0",
+  "description": "Modern and Responsive Layouts with Sass",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yolitzareth Zacarias",
+  "license": "ISC"
+}
