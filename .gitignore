@@ -70,7 +70,3 @@ yarn-error.log
 
 #package-lock
 package-lock.json
-
-#Others
-styles.css.map
-styles.css
