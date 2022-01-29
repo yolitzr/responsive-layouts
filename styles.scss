@@ -1,6 +1,8 @@
 $minWidth: 15rem;
 $gridGap: 1rem;
 
+
+// Basic Responsive Grid System with CSS Grid.
 .grid-wrapper {
   padding: 1rem;
 }
@@ -13,7 +15,21 @@ $gridGap: 1rem;
   & + .grid-content {
     margin-top: $gridGap;
   }
+}
+
+// Apply Aspect Ratio Sizing to Images with CSS object-fit
+.card {
+  &__article {
+    img {
+      width: 100%;
+      height: 25vh;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      object-fit: cover; // or object-fit: scale-down (Add value such as padding: 1rem;)
+    }
+  }
 
 }
 
-@import "grid-item"
+
+@import "grid-item" , "cards", "general";
